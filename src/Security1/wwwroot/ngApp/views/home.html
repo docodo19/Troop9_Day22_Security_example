@@ -1,0 +1,12 @@
+<h2>Home</h2>
+<p>
+    {{controller.message}}
+</p>
+
+<hr />
+
+<ul>
+    <li ng-repeat="blog in controller.blogs">
+        {{blog.title}}: {{blog.message}}
+    </li>
+</ul>
